@@ -21,6 +21,7 @@ class ViewController: UIViewController {
            currentLoc = locationManager.location
            print(currentLoc.coordinate.latitude)
            print(currentLoc.coordinate.longitude)
+            
         }
         
     }
